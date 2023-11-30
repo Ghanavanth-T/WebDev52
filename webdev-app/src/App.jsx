@@ -5,6 +5,10 @@ import React, {useState} from 'react'
 // For React Router v6
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Course from './components/Course';
+import CSE from '../../../../noteApp/src/components/CSE/CSE_sem';
+import Sem_1 from '../../../../noteApp/src/components/CSE/Sem_1';
+import Physics from '../../../../noteApp/src/components/CSE/Physics';
+import Chemistry from './components/CSE/Chemistry';
 
 // For React Router v5
 
@@ -21,6 +25,10 @@ function App() {
           <Route path="/" element={<Textform1 />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Course" element={<Course />} />
+          <Route path="/CSE" element={<CSE />} />
+          <Route path="/Sem_1" element={<Sem_1 />} />
+          <Route path="/Physics" element={<Physics />} />
+          <Route path="/Chemistry" element={<Chemistry />} />
         </Routes>
       </div>
     </Router>
