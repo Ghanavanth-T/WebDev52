@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Course = () => {
   return (
     <>
-    <div  className='pt-12'>
+    <div className='pt-12'>
       <div className=' pl-16 font-bold font-serif'>
         <h1 className='text-5xl'>Choose Your Course</h1>
     </div>
