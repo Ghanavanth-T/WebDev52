@@ -5,9 +5,9 @@ import React, {useState} from 'react'
 // For React Router v6
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Course from './components/Course';
-import CSE from '../../../../noteApp/src/components/CSE/CSE_sem';
-import Sem_1 from '../../../../noteApp/src/components/CSE/Sem_1';
-import Physics from '../../../../noteApp/src/components/CSE/Physics';
+import CSE from './components/CSE/CSE_sem';
+import Sem_1 from './components/CSE/Sem_1';
+import Physics from './components/CSE/Physics';
 import Chemistry from './components/CSE/Chemistry';
 import Reference from './components/Reference';
 import Contact from './components/Contact';
