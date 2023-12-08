@@ -3,7 +3,7 @@ import React from 'react'
 const Chemistry = () => {
   return (
     <div>
-      this is the Chemistry cycle page
+      hi u are in Chemistry page
     </div>
   )
 }

@@ -11,6 +11,7 @@ import Physics from '../../../../noteApp/src/components/CSE/Physics';
 import Chemistry from './components/CSE/Chemistry';
 import Reference from './components/Reference';
 import Contact from './components/Contact';
+import Physics_1 from './components/Physics_1';
 
 // For React Router v5
 
@@ -33,9 +34,11 @@ function App() {
           <Route path="/Chemistry" element={<Chemistry />} />
           <Route path="/Reference" element={<Reference />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/Physics_1" element={<Physics_1 />} />
         </Routes>
       </div>
     </Router>
+    
   )
 }
 
