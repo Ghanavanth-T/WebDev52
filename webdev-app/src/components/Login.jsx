@@ -15,8 +15,12 @@ const Login = () => {
   return (
     <div className="flex justify-center items-center h-screen bg-white">
       <div className="w-96 p-6 shadow-lg bg-[#279EFF] rounded-md border-r-2000">
-        <h1 className="text-4xl text-white text-center font-bold">
-          Login</h1>
+      <div className="flex items-center justify-center">
+        <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 18">
+           <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 8a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm-2 3h4a4 4 0 0 1 4 4v2H1v-2a4 4 0 0 1 4-4Z"/>
+        </svg>
+       <h1 className="text-4xl text-white ml-1 font-bold">Login</h1>
+      </div>
         <hr className = "mt-3" />
          <form onSubmit={handleSubmit}>
           <div className = "mt-3">
@@ -31,9 +35,6 @@ const Login = () => {
             <div>
             <input type="checkbox" />
               <label className="ml-2">Remember Me</label>
-              </div>
-              <div>
-                <a href="#" className ="text-white font-semibold">Forgot Password</a>
               </div>
           </div>
           <div>
