@@ -2,10 +2,11 @@ import React from 'react'
 
 const Chemistry = () => {
   return (
+    <>
     <div>
-      this is the Chemistry cycle page
-      have to mae 
+      hi u are in Chemistry page
     </div>
+    </>
 
   )
 }
