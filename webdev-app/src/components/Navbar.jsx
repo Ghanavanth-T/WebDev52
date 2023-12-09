@@ -34,7 +34,7 @@ const Navbar = () => {
     //         <Link to="/Reference"><a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-[#233876] md:hover:bg-transparent md:hover:text-[#233876] md:p-0 dark:text-white md:dark:hover:text-[#233876] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Reference</a></Link>
     //       </li>
     //       <li>
-    //         <Link to="/Contact"><a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-[#233876] md:hover:bg-transparent md:hover:text-[#233876] md:p-0 dark:text-white md:dark:hover:text-[#233876] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a></Link>
+    //         <Link to="/Feedback"><a href="#" class="block py-2 px-3 text-gray-900 rounded hover:bg-[#233876] md:hover:bg-transparent md:hover:text-[#233876] md:p-0 dark:text-white md:dark:hover:text-[#233876] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Feedback</a></Link>
     //       </li>
     //     </ul>
     //   </div>
@@ -112,8 +112,8 @@ const Navbar = () => {
       <li>
         <a href="https://docs.google.com/document/d/1aDTgYNIxgaxTI86b_rTH3YNiIuqzacxZQlr1Xl1HuSY/edit" class="block py-2 px-3 text-xl md:p-0 text-gray-900 rounded hover:bg-[#233876] md:hover:bg-transparent md:hover:text-[#233876] dark:text-white md:dark:hover:text-[#233876] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
       </li>
-      <Link to="/Contact"><li>
-        <a href="#" class="block py-2 px-3 text-xl md:p-0 text-gray-900 rounded hover:bg-[#233876] md:hover:bg-transparent md:hover:text-[#233876] dark:text-white md:dark:hover:text-[#233876] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+      <Link to="/Feedback"><li>
+        <a href="#" class="block py-2 px-3 text-xl md:p-0 text-gray-900 rounded hover:bg-[#233876] md:hover:bg-transparent md:hover:text-[#233876] dark:text-white md:dark:hover:text-[#233876] dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Feedback</a>
       </li></Link>
     </ul>
   </div>
