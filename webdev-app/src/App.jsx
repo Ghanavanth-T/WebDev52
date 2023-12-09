@@ -9,7 +9,7 @@ import CSE from './components/CSE/CSE_sem';
 import Sem_1 from './components/CSE/Sem_1';
 import Physics from './components/CSE/Physics';
 import Chemistry from './components/CSE/Chemistry';
-import Reference from './components/Reference';
+//import Reference from './components/Reference';//
 import Contact from './components/Contact';
 import Physics_1 from './components/Physics_1';
 
@@ -32,8 +32,8 @@ function App() {
           <Route path="/Sem_1" element={<Sem_1 />} />
           <Route path="/Physics" element={<Physics />} />
           <Route path="/Chemistry" element={<Chemistry />} />
-          <Route path="/Reference" element={<Reference />} />
-          <Route path="/Contact" element={<Contact />} />
+          {/* <Route path="/Reference" element={<Reference />} /> */}
+         <Route path="/Contact" element={<Contact />} />
           <Route path="/Physics_1" element={<Physics_1 />} />
         </Routes>
       </div>

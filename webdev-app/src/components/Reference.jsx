@@ -7,8 +7,8 @@ const Reference = () => {
       <div class="outer-container">
 	<div class="left-container">
 		<div class="sem-box"><button class="active">SEM 1</button></div>
-		<div class="sem-box"><button class="active">SEM 2</button></div>
-		<div class="sem-box"><button class="active">SEM 3</button></div>
+		<div class="sem-box"><button >SEM 2</button></div>
+		<div class="sem-box"><button>SEM 3</button></div>
 		<div class="sem-box"><button>SEM 4</button></div>
 		<div class="sem-box"><button>SEM 5</button></div>
 		<div class="sem-box"><button>SEM 6</button></div>
